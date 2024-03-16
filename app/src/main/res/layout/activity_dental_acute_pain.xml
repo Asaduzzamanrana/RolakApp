@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/pfbg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DentalAcutePain">
+
+    <ImageView
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/dPacketId"
+        android:src="@drawable/pf"/>
+
+    <ImageButton
+        android:id="@+id/dapBtnId"
+        android:layout_width="260dp"
+        android:layout_height="200dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="280dp"
+        android:layout_marginBottom="77dp"
+        android:background="@drawable/rp" />
+
+    <ImageButton
+        android:layout_width="180dp"
+        android:layout_height="80dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="257dp"
+        android:layout_toStartOf="@+id/dapBtnId"
+        android:background="@drawable/fastest" />
+
+
+</RelativeLayout>

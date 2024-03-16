@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:gravity="center"
+    android:background="@drawable/bk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <ImageButton
+        android:transitionName="fbtn1"
+        android:id="@+id/fbtn1"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:background="@drawable/fbtn1" />
+
+    <ImageButton
+        android:transitionName="fbtn2"
+        android:id="@+id/fbtn2"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:background="@drawable/fbtn2" />
+
+</LinearLayout>

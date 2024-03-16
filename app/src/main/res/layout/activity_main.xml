@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@drawable/bk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageButton
+        android:id="@+id/btn1Id"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="314dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="217dp"
+        android:background="@drawable/b1"
+        android:transitionName="b1" />
+
+    <ImageButton
+        android:transitionName="b2"
+        android:id="@+id/btn2Id"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/btn1Id"
+        android:layout_alignStart="@+id/btn1Id"
+        android:layout_alignEnd="@+id/btn1Id"
+        android:background="@drawable/b2" />
+
+    <ImageButton
+        android:transitionName="b3"
+        android:id="@+id/btn3Id"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/btn2Id"
+        android:layout_alignStart="@+id/btn2Id"
+        android:layout_alignEnd="@+id/btn2Id"
+        android:background="@drawable/b4" />
+
+    <ImageButton
+        android:transitionName="b4"
+        android:id="@+id/btn4Id"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_below="@+id/btn3Id"
+        android:layout_alignStart="@+id/btn3Id"
+        android:layout_alignEnd="@+id/btn3Id"
+        android:background="@drawable/b3" />
+
+
+
+</RelativeLayout>

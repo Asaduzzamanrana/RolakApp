@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NewProject"
+        tools:targetApi="31">
+        <activity
+            android:name=".OrthoAcutePain3"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".OrthoAcutePain2"
+            android:exported="false"
+            android:screenOrientation="landscape"/>
+        <activity
+            android:name=".GyneoAcutePain3"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GyneoAcutePain2"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".DentalAcutePain3"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".DentalAcutePain2"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".OrthoAcutePain"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GyneoAcutePain"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".DentalAcutePain"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".GynecoPain"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".OrthopedicPain"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".DentalPain"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
